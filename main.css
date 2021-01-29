@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap')
+;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap')
+;
+
+.topnav {
+    background-color: #050505
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color:antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    flex: 1;
+}
+
+.topnav a:hover {
+    background-color: #f7c1eb;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: burlywood;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(112, 63, 7);
+    font-size: 50px;
+}
+
+* {
+    background-color: rgb(226, 208, 184);
+}
+
+.centertext {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
+
+.containerpics {
+    display: flex;
+    width:300px;
+    height:300px;
+    flex-direction: row;
+}
+
+.item {
+    display: flex;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px
+}
+
+
+.pinkbackground {
+    background:rgba(209, 157, 216, 0.7);
+    border-style:none;
+    border-radius:25px;
+}
+
+.brownbackground {
+    background:rgba(112, 63, 7, 0.3);
+    border-style: none;
+    border-radius: 25px;
+}
+
+.blackbackground {
+    background:rgba(2, 2, 2, 0.7);
+    color: white;
+    border-style: none;
+    border-radius: 25px;
+}
+
+.links {
+    background-color: #000000
+    overflow: hidden;
+}
+
+.links a {
+    float: left;
+    color:rgb(192, 107, 67);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    flex: 1;
+}
+
+.links a:hover {
+    background-color: #f7c1f3;
+    color: black;
+}
+
+.links a.active {
+    background-color: burlywood;
+    color: white;
+}
